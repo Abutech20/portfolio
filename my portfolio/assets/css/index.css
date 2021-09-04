@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .content h1{
+   animation: backInRight;
+   animation-duration: 5s;
+}
+.container .content h4{
+    animation: heartBeat;
+    animation-duration: 2s;
+}
+.container-fluid{
+    width: 100%;
+    background-color: black;
+}
+.bar .navbar-brand{
+    color: white; 
+    margin-right: 500px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.container-fluid .row .nav-item .nav-link{
+    margin-left: 20px;
+}
+.row .full{
+    margin-top: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 70px;
+}
+
+.row .full2{
+    margin-top: 270px;
+}
+.container .image img{
+    margin-top: 150px;
+    margin-left: 50px;
+    border-right: 4px solid black;
+}
+
+h1, h2, h3, h4, h5{
+    color: white;
+}
+.contact-icon{
+    padding: 50px;
+}
+.contact-icon ul li i{
+    color: black;
+    list-style-type: none;
+    width: 50px;
+    height: 50px;
+}
+.contact-icon ul li a{
+    color: black;
+    list-style-type: none;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+.contact-icon ul li i:hover{
+    color: rgb(255, 196, 0);
+    list-style-type: none;
+    width: 60px;
+}
+.contact-icon ul li {
+    color: white;
+    list-style-type: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+        .content{
+            margin-right: 100px;
+        }
+        .content img{
+            display: none;
+        }
+        .content2 img{
+            display: none;
+        }
+        .row .full2 h4{
+            font-size: 15px;
+        }
+
+        .bar .navbar-brand{
+            color: white; 
+            margin-right: 10px;
+            font-size: 20px;
+            margin-left: 15px;
+        }
+        .row .full2{
+            margin-top: 50px;
+            padding: 20px;
+            margin-right: 100px;
+        }
+        .row .full{
+            margin-top: 50px;
+            padding: 20px;
+            margin-right: 100px;
+        }
+      .container-fluid .navbar-toggler{
+           margin-left: 0px;
+       }
+  }
